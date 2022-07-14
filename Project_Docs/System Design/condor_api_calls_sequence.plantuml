@@ -1,0 +1,32 @@
+@startuml condor_api_calls_sequence
+participant AreaTypeDetails_Thread          order 10
+participant	AreaTypePredictionCondorApiClient		order	20
+participant	CondorApiClient                 order	30
+participant AwsSecretsManagerHelper			order	60
+
+activate AreaTypeDetails_Thread
+AreaTypeDetails_Thread -> AreaTypePredictionCondorApiClient: Pass\nCondorApiVariables 
+activate AreaTypePredictionCondorApiClient
+AreaTypeDetails_Thread -> AreaTypePredictionCondorApiClient: CallApi() 
+AreaTypePredictionCondorApiClient -> CondorApiClient: Initiates \nPasses Variables
+activate CondorApiClient
+AreaTypePredictionCondorApiClient -> CondorApiClient: CallApi() 
+CondorApiClient -> CondorApiClient: ExecuteRestRequestAsync()
+
+group Retries request up to 3 times
+CondorApiClient -> AwsSecretsManagerHelper: GetKeys
+activate AwsSecretsManagerHelper
+    AwsSecretsManagerHelper -> AwsSecretsManagerHelper: Retrieves keys\nUsing cache or LoginCondorApiClient
+    AwsSecretsManagerHelper -> AwsSecretsManagerHelper: Stores Keys\nin cahce
+    AwsSecretsManagerHelper -> CondorApiClient: ReturnsKeys
+    deactivate AwsSecretsManagerHelper
+    CondorApiClient -> CondorApiClient: Creates RestClient\nAdds AwsAuthenticator
+end
+CondorApiClient -> CondorApiClient: Handles Logging
+CondorApiClient -> AreaTypePredictionCondorApiClient: Returns after Wait()
+deactivate CondorApiClient
+AreaTypePredictionCondorApiClient -> AreaTypeDetails_Thread: ParseResponse()\nReturns response\nafter Wait()
+deactivate AreaTypePredictionCondorApiClient
+deactivate AreaTypeDetails_Thread
+
+@enduml

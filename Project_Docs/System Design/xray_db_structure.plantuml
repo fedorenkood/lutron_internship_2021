@@ -1,0 +1,31 @@
+@startuml xray_db
+!define table(x) class x << (T,#FFAAAA) >>
+!define primary_key(x) <u>x</u>
+hide methods
+hide stereotypes
+
+table(xRayPanelLookup) {
+  primary_key(Board_ID)
+  Panel_ID
+}
+
+table(xRayLog) {
+  primary_key(ID)
+  Panel_ID
+  Board_Pos
+  Panel_Type
+  Time
+  Filepath
+  Data_ID
+}
+
+table(xRayLogData) {
+  primary_key(ID)
+  Session_ID
+  Component_Num
+  VoidArea
+}
+
+xRayPanelLookup::Panel_ID "1" --{ "*" xRayLog::Panel_ID
+xRayLog::Data_ID "1" --{ "*" xRayLogData::Session_ID
+@enduml

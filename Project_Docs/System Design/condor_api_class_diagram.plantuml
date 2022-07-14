@@ -1,0 +1,98 @@
+@startuml condor_api_class_diagram
+
+
+package "DomainObject Classes" #cfcfcf {
+	class Area {
+		AreaTypeDetails
+		onNameUpdated()
+	}
+	class AreaTypeDetails {
+		AreaTypePredicted
+		AreaTypeSelected
+		AreaTypePredictionSource
+		void PredictAreaType(string areaName)
+		void UseFuzzyMatch(string areaName)
+		void SetPrediction()
+	}
+	Area "1" *-- AreaTypeDetails
+}
+
+
+package "AreaTypePrediction CondorApi Implementation Classes" #b8705a {
+	class AreaTypePredictionCondorApiClient {
+		Task<Tuple<ResponseResult, AreaTypePredictionResult[]>> ApiCall() 
+		AreaTypePredictionResult[] ParseResponse(IRestResponse response)
+	}
+
+	class AreaTypePredictionCondorApiVariables {
+		public string userManagemetnToken
+		public string baseUrl
+		public string modelExtension
+		public string region
+	}
+	AreaTypePredictionCondorApiClient --> "1" AreaTypePredictionCondorApiVariables
+}
+
+
+package "Login CondorApi Implementation Classes" #3289a8 {
+
+	class LoginCondorApiClient {
+		Task<Tuple<ResponseResult, AreaTypePredictionResult[]>> ApiCall() 
+		LoginResult ParseResponse(IRestResponse response)
+	}
+
+	class LoginCondorApiVariables {
+		public string userManagemetnToken
+		public string baseUrl
+		public string modelExtension
+		public string region
+	}
+	LoginCondorApiClient --> "1" LoginCondorApiVariables
+}
+
+package "CondorApi Base Classes" #6a806b {
+	class AwsAuthenticator {
+		void Authenticate() 
+		string GetCredentialString()
+	}
+
+	class CondorApiVariablesBase {
+		abstract public string BaseUrl
+		abstract public string ModelExtension
+		abstract public string Region
+	}
+
+	class CondorApiClient {
+		MAX_ATTEMPTS
+		Task<IRestResponse> ExecuteRestRequestAsync()
+		protected void OutputLog()
+	}
+
+	class AwsSecretsManagerClient {
+		void Dispose()
+		Task<Dictionary<string, string>> GetSecretsAsync(string token)
+	}
+
+	CondorApiClient "1" o-- CondorApiVariablesBase
+
+	' Aws reations
+	CondorApiClient "1" *-d- AwsSecretsManagerClient 
+	CondorApiClient "1" *-d- AwsAuthenticator
+}
+
+
+' DomainObjects to CondorApi relation
+AreaTypePredictionCondorApiClient "1" <-d- AreaTypeDetails
+
+' Inheritance
+AreaTypePredictionCondorApiClient ---|> CondorApiClient
+LoginCondorApiClient ---|> CondorApiClient
+
+' Variables Inheritance
+AreaTypePredictionCondorApiVariables --|> CondorApiVariablesBase
+LoginCondorApiVariables --|> CondorApiVariablesBase
+
+' Login relations
+LoginCondorApiClient "1" <-- AwsSecretsManagerClient
+
+@enduml

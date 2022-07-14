@@ -1,0 +1,12 @@
+Authorization Header
+------------------------
+Type: AWS Signature
+Add auth data to: Request Headers
+AccessKey: AKIAUVH2K7CEVVJZLBGL
+SecretKey: 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
+AWS Region: us-east-1
+Service Name: execute-api
+
+Request Headers
+-------------------------
+x-api-key: XItmyYcr4DrvmZaaQGFZ4TNCOQqO96Q7b2mdrFc7

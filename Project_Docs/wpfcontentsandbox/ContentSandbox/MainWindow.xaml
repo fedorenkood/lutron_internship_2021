@@ -1,0 +1,306 @@
+﻿<Window x:Class="ContentSandbox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContentSandbox"
+        xmlns:converter="clr-namespace:ContentSandbox.Converters"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="Content Sandbox" Height="800" Width="1000">
+
+    <Window.Resources>
+        <converter:ColorConverter x:Key="ColorConverter"/>
+
+
+        <SolidColorBrush x:Key="QuestionInCirclePathFillBrush" Color="#0071BC"/>
+
+        <Viewbox x:Key="QuestionInCircleIcon" x:Shared="False" Width="19" Height="19">
+            <Grid>
+                <Path Opacity="0.8" Fill="{DynamicResource QuestionInCirclePathFillBrush}" Data="F1 M 3.580,14.088 C 4.927,15.434 6.780,16.264 8.834,16.264 L 8.834,16.264 C 10.888,16.264 12.741,15.434 14.087,14.088 L 14.087,14.088 C 15.433,12.742 16.264,10.889 16.264,8.834 L 16.264,8.834 C 16.264,6.779 15.433,4.926 14.087,3.580 L 14.087,3.580 C 12.741,2.234 10.888,1.404 8.834,1.404 L 8.834,1.404 C 6.780,1.404 4.927,2.234 3.580,3.580 L 3.580,3.580 C 2.235,4.926 1.404,6.779 1.404,8.834 L 1.404,8.834 C 1.404,10.889 2.235,12.742 3.580,14.088 L 3.580,14.088 Z M 0.000,8.834 C 0.000,3.955 3.955,0.000 8.834,0.000 L 8.834,0.000 C 13.713,0.000 17.667,3.955 17.667,8.834 L 17.667,8.834 C 17.667,13.713 13.713,17.668 8.834,17.668 L 8.834,17.668 C 3.955,17.668 0.000,13.713 0.000,8.834 L 0.000,8.834 Z"/>
+                <Path Opacity="0.8" Fill="{DynamicResource QuestionInCirclePathFillBrush}" Data="F1 M 8.764,13.270 C 8.525,13.270 8.317,13.193 8.140,13.039 C 7.962,12.885 7.873,12.668 7.873,12.391 C 7.873,12.145 7.959,11.938 8.131,11.770 C 8.303,11.602 8.514,11.518 8.764,11.518 C 9.010,11.518 9.217,11.602 9.385,11.770 C 9.553,11.938 9.637,12.145 9.637,12.391 C 9.637,12.664 9.549,12.879 9.373,13.035 C 9.197,13.191 8.994,13.270 8.764,13.270 Z M 5.904,6.848 C 5.904,6.477 6.023,6.102 6.262,5.721 C 6.500,5.340 6.848,5.023 7.305,4.773 C 7.762,4.523 8.295,4.398 8.904,4.398 C 9.471,4.398 9.971,4.504 10.404,4.713 C 10.838,4.922 11.173,5.205 11.409,5.564 C 11.646,5.924 11.764,6.314 11.764,6.736 C 11.764,7.068 11.696,7.359 11.562,7.609 C 11.427,7.859 11.267,8.076 11.081,8.258 C 10.896,8.439 10.563,8.744 10.082,9.174 C 9.949,9.295 9.843,9.402 9.763,9.494 C 9.683,9.586 9.623,9.670 9.584,9.746 C 9.545,9.822 9.515,9.898 9.493,9.975 C 9.472,10.051 9.439,10.184 9.396,10.375 C 9.322,10.781 9.090,10.984 8.699,10.984 C 8.496,10.984 8.325,10.918 8.187,10.785 C 8.048,10.652 7.979,10.455 7.979,10.193 C 7.979,9.865 8.029,9.582 8.131,9.342 C 8.232,9.102 8.367,8.891 8.535,8.709 C 8.703,8.527 8.930,8.311 9.215,8.061 C 9.465,7.842 9.646,7.678 9.757,7.566 C 9.868,7.455 9.962,7.330 10.038,7.193 C 10.114,7.057 10.152,6.908 10.152,6.748 C 10.152,6.436 10.036,6.172 9.804,5.957 C 9.571,5.742 9.271,5.635 8.904,5.635 C 8.475,5.635 8.158,5.744 7.955,5.961 C 7.752,6.178 7.580,6.496 7.439,6.918 C 7.307,7.359 7.055,7.580 6.684,7.580 C 6.465,7.580 6.280,7.504 6.130,7.350 C 5.979,7.195 5.904,7.027 5.904,6.848 Z"/>
+            </Grid>
+        </Viewbox>
+        <Style x:Key="SmartDefaultsStyle"
+               TargetType="{x:Type ContentControl}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <StackPanel AutomationProperties.AutomationId="SmartDefaultsPanelId"                    
+						Orientation="Horizontal" Height="40">
+                            <TextBlock Text="Some Text" VerticalAlignment="Center"></TextBlock>
+                            <StackPanel x:Name="ProgramingDefaultsMessageTextBlock" VerticalAlignment="Center">
+                                <ToggleButton x:Name="ProgramingDefaultsTextToggleButton" 
+                                          AutomationProperties.AutomationId="QuestionMarkId"
+                                          Margin="8,0"
+                                              VerticalAlignment="Center"
+                                          IsChecked="False">
+                                    <ToggleButton.Style>
+                                        <Style TargetType="{x:Type ToggleButton}">
+                                            <Setter Property="Template">
+                                                <Setter.Value>
+                                                    <ControlTemplate>
+                                                        <Grid AutomationProperties.AutomationId="QuestionMarkInCircleGridId"
+                                                          Background="Transparent">
+                                                            <ContentPresenter AutomationProperties.AutomationId="QuestionInCircleContentId"
+                                                                          Content="{StaticResource QuestionInCircleIcon}"/>
+                                                        </Grid>
+                                                    </ControlTemplate>
+                                                </Setter.Value>
+                                            </Setter>
+                                            <Setter Property="Height" Value="20"/>
+                                            <Setter Property="Width" Value="20" />
+                                        </Style>
+                                    </ToggleButton.Style>
+                                </ToggleButton>
+
+                                <Popup  AutomationProperties.AutomationId="ProgramingDefaultsTextPopupId"
+                                    IsOpen="{Binding ElementName=ProgramingDefaultsTextToggleButton, 
+                                                     Path=IsChecked}"
+                                    Width="250"
+                                    StaysOpen="False"
+                                    PopupAnimation="Slide"
+                                    Focusable="False"
+                                    AllowsTransparency="True"
+                                    Placement="Bottom">
+                                    <Grid AutomationProperties.AutomationId="AvailableComponentsBorderId"
+                                      Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}">
+                                        <Border Style="{DynamicResource PopUpBorderStyle}">
+                                            <Grid AutomationProperties.AutomationId="MainPopupGridId"
+                                              Margin="0"
+                                              Background="White">
+                                                <TextBlock AutomationProperties.AutomationId="ProgramingDefaultsMessageTextId"
+                                              TextWrapping="Wrap"
+                                              Margin="3"
+                                              Text="Some Text"/>
+                                            </Grid>
+                                        </Border>
+                                    </Grid>
+                                </Popup>
+                            </StackPanel>
+                        </StackPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/> <!--Preview Area-->
+            <RowDefinition Height="3*"/> <!--Explore and Edit Area-->
+            <RowDefinition Height="30"/> <!--Footer-->
+        </Grid.RowDefinitions>
+
+        <!--Preview Area-->
+        <StackPanel Orientation="Horizontal">
+            <!--Kitchen Preview-->
+            <ItemsControl x:Name="kitchen_previews" ItemsSource="{Binding KitchenZonePreviews}" Margin="50,100,0,0" HorizontalAlignment="Center">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,5,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="300"/>
+                            </Grid.ColumnDefinitions>
+                            <!--Zone Name-->
+                            <TextBlock Text="{Binding Key.Name}" />
+
+                            <!--Color Preview-->
+                            <Rectangle Fill="{Binding Value.Color}"
+                                   Stroke="Black" Width="15" Margin="0,0,0,0" />
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            
+            <!--Living Room Preview-->
+            <ItemsControl x:Name="living_previews" ItemsSource="{Binding LivingZonePreviews}" Margin="50,100,0,0" HorizontalAlignment="Center">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,5,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="300"/>
+                            </Grid.ColumnDefinitions>
+                            <!--Zone Name-->
+                            <TextBlock Text="{Binding Key.Name}" />
+
+                            <!--Color Preview-->
+                            <Rectangle Fill="{Binding Value.Color}"
+                                   Stroke="Black" Width="15" Margin="0,0,0,0" />
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <!--Mock Keypad-->
+            <StackPanel Margin="50,100,0,0">
+                <Button Content="Button 1" Command="{Binding Button1PressedCommand}" Margin="5" Padding="5"/>
+                <Button Content="Button 2" Command="{Binding Button2PressedCommand}" Margin="5" Padding="5"/>
+                <Button Content="Button 3" Command="{Binding Button3PressedCommand}" Margin="5" Padding="5"/>
+                <Button Content="Off" Command="{Binding Button4PressedCommand}" Margin="5" Padding="5"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!--Explore and Edit Area-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Load Schedule Section-->
+            <StackPanel Grid.Column="0" Margin="10">
+                <TextBlock Text="Load Schedule" FontSize="20" HorizontalAlignment="Center" Margin="10"/>
+                <!--<TextBlock Text="{Binding Project.Name}"/>-->
+
+                <ItemsControl x:Name="load_schedule" ItemsSource="{Binding Project.Areas}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="10,5,0,0">
+
+                                <!--Area Name-->
+                                <TextBlock Text="{Binding Name}"/>
+
+                                <!--Zones in Area-->
+                                <ItemsControl x:Name="area_zones" ItemsSource="{Binding Zones}"
+                                              Margin="10,5,0,0">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="150" />
+                                                    <ColumnDefinition Width="100" />
+                                                </Grid.ColumnDefinitions>
+
+                                                <!--Zone Name-->
+                                                <TextBlock Text="{Binding Name}" />
+
+                                                <!--Zone Type-->
+                                                <ComboBox Grid.Column="1" 
+                                                              ItemsSource="{Binding ElementName=load_schedule, Path=DataContext.LayerList.Layers}"
+                                                              SelectedItem="{Binding DefaultLayer}">
+                                                    <ComboBox.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <TextBlock Text="{Binding Name}"/>
+                                                        </DataTemplate>
+                                                    </ComboBox.ItemTemplate>
+                                                </ComboBox>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+            </StackPanel>
+
+            <!--Content Section-->
+            <StackPanel Grid.Column="1" Margin="10" x:Name="content_viewer">
+                <TextBlock Text="Content" FontSize="20" HorizontalAlignment="Center" Margin="10"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ListBox Grid.Column="0"
+                             ItemsSource="{Binding TrimmedContentList}" SelectedItem="{Binding ActiveContent}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name}"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <StackPanel Grid.Column="1"
+                                DataContext="{Binding ActiveContent}">
+                        <TextBlock Text="{Binding Name}" FontSize="24" HorizontalAlignment="Center" Margin="10"/>
+                        <ItemsControl ItemsSource="{Binding LayerSettings}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Margin="0,5,0,0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150"/>
+                                            <ColumnDefinition Width="20"/>
+                                            <ColumnDefinition Width="20"/>
+                                        </Grid.ColumnDefinitions>
+                                        <!--Layer Name-->
+                                        <TextBlock Text="{Binding Key.Name}" Margin="50,0,0,0"/>
+                                        <!--Layer Color-->
+                                        <Rectangle Fill="{Binding Value.Color}"
+                                               Stroke="Black" Width="20" Margin="130,0,0,0"/>
+                                        <xctk:ColorPicker Grid.Column="2" Width="20" ColorMode="ColorCanvas"
+                                                          SelectedColor="{Binding Value.Color, Converter={StaticResource ColorConverter}, Mode=TwoWay}"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                        <Button Content="Add element" Width="80" Margin="10"
+                                Command="{Binding ElementName=content_viewer, Path=DataContext.AddContentCommand}"/>
+                        <ContentControl HorizontalAlignment="Left" 
+                                        Margin="7,10,0,4" 
+                                        Style="{StaticResource SmartDefaultsStyle}"/>
+
+                        <Button Content="Preview" Width="60" Margin="10"
+                                Command="{Binding ElementName=content_viewer, Path=DataContext.PreviewContentCommand}"/>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+            
+            <!--Program Section-->
+            <StackPanel Grid.Column="2" Margin="10">
+                <TextBlock Text="Program" FontSize="20" HorizontalAlignment="Center" Margin="10"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ListBox Grid.Column="0"
+                             ItemsSource="{Binding ButtonList}" SelectedItem="{Binding SelectedButton}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name}"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <ItemsControl x:Name="area_selector" ItemsSource="{Binding SelectedButton.Programming}"
+                                  Grid.Column="1">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="30,5,0,0">
+
+                                    <!--Area Name-->
+                                    <TextBlock x:Name="area_name_button_prog" Text="{Binding AffectedArea.Name}"/>
+
+                                    <!--Content-->
+                                    <ComboBox Grid.Column="1" 
+                                              ItemsSource="{Binding ElementName=area_selector, Path=DataContext.ContentList}"
+                                              SelectedItem="{Binding Content, Mode=TwoWay}">
+                                        <ComboBox.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding Name}"/>
+                                            </DataTemplate>
+                                        </ComboBox.ItemTemplate>
+                                    </ComboBox>
+
+                                </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+
+                </Grid>
+            </StackPanel>
+        </Grid>
+
+        <!--Footer-->
+        <TextBlock Text="Version 0.3.0" HorizontalAlignment="Right" Grid.Row="2" Margin="0,8,10,0"/>
+
+    </Grid>
+</Window>

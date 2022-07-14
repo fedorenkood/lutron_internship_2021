@@ -1,0 +1,93 @@
+@startuml xray_class_diagram
+
+
+package "ViewModel Classes" #cfcfcf {
+    class MainViewModel {
+        EventSystem.Subscribe<BoardButtonClickedMessenger>(this.ParseMessage);
+        EventSystem.Subscribe<PanelViewMessenger>(this.ParseMessage);
+    }
+
+    class PanelViewModel {
+        public ICommand BoardButtonCommand
+    }
+
+    class BoardViewModel {
+        ICommand PanelViewCommand
+        ICommand ManualPassCommand
+        ICommand ManualFailCommand
+    }
+}
+
+
+package "Implementation Classes" #b8705a {
+    class EmitterBoard {
+    }
+
+    class EmitterPanel {
+        AbstractBoard InstantiateBoard(string file)
+    }
+
+    class EmitterFileProcessor{
+        PanelCoordinates FilenameToCoordinates()
+        string GetPositionIdentifier()
+        List<Dictionary<string, string>> CsvToListOfDicts
+    }
+    EmitterPanel "1" *--> "*" EmitterBoard
+    ' EmitterPanel "1" --> "1" EmitterFileProcessor
+}
+
+
+package "Helpers" #3289a8 {
+	class FileProcessor{
+        abstract PanelCoordinates FilenameToCoordinates()
+        abstract string GetPositionIdentifier()
+        List<Dictionary<string, string>> CsvToListOfDicts
+    }
+
+    class FileReader{
+        void SelectFolder()
+        IEnumerable<string> ReadFiles(string extension)
+    }
+}
+
+package "Base Classes" #6a806b {
+    class XRayProject {
+        List<AbstractPanel> Panels
+        AbstractPanel SelectedPanel
+        void AddPanel(AbstractPanel panel)
+    }
+
+    class AbstractPanel {
+        Dictionary<PanelCoordinates, AbstractBoard> BoardsDict
+        FileProcessing FileProcessor
+        FileReader FileReader
+        AbstractBoard SelectedBoard
+    }
+
+    class AbstractBoard {
+        string ImagePath
+        PanelCoordinates Coordinates
+        string PositionIdentifier
+        BoardStatus ApprovalStatus
+    }
+
+    XRayProject "1" *--> "*" AbstractPanel
+    AbstractPanel "1" o--> "*" AbstractBoard
+}
+
+' Helpers usage
+AbstractPanel "1" --> "1" FileProcessor
+AbstractPanel "1" --> "1" FileReader
+
+' Implementations
+EmitterBoard --|> AbstractBoard
+EmitterPanel --|> AbstractPanel
+EmitterFileProcessor --|> FileProcessor
+
+' Relation to ViewModel
+PanelViewModel "1" o--> "1" XRayProject
+PanelViewModel "1" o--> "1" AbstractPanel
+PanelViewModel "1" o--> "1" EmitterPanel
+BoardViewModel "1" o--> "1" AbstractBoard
+
+@enduml

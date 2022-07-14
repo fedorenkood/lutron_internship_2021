@@ -1,0 +1,24 @@
+
+@startuml
+
+
+class Module {
+	-memberComponent : SubModule
+}
+
+
+note right of Module
+	Module <b>creates and owns</b> an object
+	of type SubModule. Nobody passes Module
+	this instance, but Module could pass a reference
+	to some other object that <i>aggregates</i> a SubModule.
+end note
+
+
+class SubModule
+
+
+Module *--> SubModule
+
+
+@enduml

@@ -1,0 +1,33 @@
+Foyer/Entry
+Hallway/Stairs
+Bar
+WineCellar
+Bathroom
+Gym
+EntertainingRoom
+Office
+Bedroom
+Kitchen
+DiningRoom
+Porch
+Exterior
+Garage
+GreatRoom
+FamilyRoom
+LivingRoom
+Theater
+Pantry
+PowderRoom
+UtilityRoom
+Clothing Closet
+Closet/Storage
+Pool
+OutdoorsLiving
+LaundryRoom
+Library
+MediaRoom
+Mudroom
+Nook
+Art Room/Gallery
+CraftRoom
+Others

@@ -1,0 +1,23 @@
+@startuml
+
+
+abstract class DriverInterface {
+	+{abstract} UpdateDutyCycle(Period, DutyCycle)
+}
+
+class Driver {
+	+UpdateDutyCycle(Period, DutyCycle) <<override>>
+	-SetTimerParams()
+}
+
+note right of Driver
+	This Driver <b>implements</b> the DriverInterface. Clients can now
+	use a DriverInterface without knowing the specific object that 
+	implements it. This <b>run-time polymorhpism</b>
+end note
+
+
+Driver .up.|> DriverInterface 
+
+
+@enduml

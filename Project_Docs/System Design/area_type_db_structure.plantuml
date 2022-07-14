@@ -1,0 +1,20 @@
+@startuml area_type_db_structure
+!define table(x) class x << (T,#FFAAAA) >>
+!define primary_key(x) <u>x</u>
+hide methods
+hide stereotypes
+
+table(Area) {
+  primary_key(ID)
+  Other_Properties
+}
+
+table(AreaTypeDetails) {
+  primary_key(AssociatedAreaID)
+  AreaTypePredicted
+  AreaTypeSelected
+  AreaTypePredictionSource
+}
+
+Area::ID "1" }-l- "1" AreaTypeDetails::AssociatedAreaID
+@enduml

@@ -1,0 +1,41 @@
+@startuml area_type_request_sequence_1
+actor       Dealer              as Dealer   order 10
+participant Request_Thread      as Thread   order 20
+database    Project_Database    as PrjDB    order 30
+participant CondorApi           as CondorApi   order 35
+participant RAM                 as Ram      order 40
+participant DS_Login_Endpoint   as Login_DB    order 45
+participant DS_ML_Endpoint      as ML_DB    order 50
+
+
+
+Dealer -> Thread: Phase 1 - AreaName changed
+activate Thread
+Thread -> Thread: Get AnonymousData, Feature,\nUser Management Token
+group AnonymousData and Feature enabled
+    Thread -> CondorApi: Make a request to predict area type (include UM_Token)
+	CondorApi -> Ram: Request Secrets from local memory
+	activate Ram
+	group Check for Secrets
+		Ram -> CondorApi: Has Secrets
+	else No Secrets
+		Ram -> CondorApi: No Secrets
+		deactivate Ram
+		CondorApi -> Login_DB: Request Secrets (include UM_Token)
+		activate Login_DB
+		Login_DB -> CondorApi: Secrets
+		deactivate Login_DB
+		CondorApi -> Ram: Save Secrets to local memory
+	end
+	CondorApi -> ML_DB: Request AreaType prediction (include Secrets)
+	activate ML_DB
+	ML_DB -> CondorApi: List of predicted AreaTypes ordered by confidence level
+	deactivate ML_DB
+    CondorApi -> Thread: List of predicted AreaTypes ordered by confidence level
+else AnonymousData and Feature disabled, Offline, or any errors
+	Thread-> Thread: Do fuzzy match prediction
+end
+Thread -> Thread: Update AreaTypeDetails, raise flags
+
+
+@enduml

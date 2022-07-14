@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DxT6Tv/FvT9AaSeslY656kjYjeuev4qaqiDBaRspIm/QtAhGonMhcs7ZrCnn8cV+0hsz1S+buv+bO/rzjt7T2g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ofedorenko\\OneDrive - Lutron Electronics Co., Inc\\Documents\\Project_Docs\\FuzzyMatchTesting\\FuzzyMatchTesting\\FuzzyMatchTesting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ofedorenko\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

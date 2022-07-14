@@ -1,0 +1,39 @@
+@startuml gui_area_type_request_sequence
+actor		Dealer				as	View				order	10
+participant	AreaTreeView		as	AreaTreeView		order	20
+participant	AreaTreeViewModel	as	AreaTreeViewModel	order	30
+participant	AreaModelView		as	AreaModelView		order	40
+participant	Area				as	Area				order	50
+participant	AreaTypeDetails		as	AreaTypeDetails		order	50
+participant APITool				as 	APITool				order	60
+
+
+View -> AreaTreeView: Done Button Clicked
+activate AreaTreeView
+AreaTreeView -> AreaTreeViewModel: UpdateAreaCommand
+deactivate AreaTreeView
+activate AreaTreeViewModel
+AreaTreeViewModel -> AreaTreeViewModel: Calls UpdateArea()
+AreaTreeViewModel -> AreaModelView: UpdateArea()
+deactivate AreaTreeViewModel
+activate AreaModelView
+AreaModelView -> Area: UpdateArea()
+deactivate AreaModelView
+activate Area
+Area -> Area: Access DomainObjectModelBase.Name
+Area -> AreaTypeDetails: PredictAreaType(Name)
+deactivate Area
+activate AreaTypeDetails
+AreaTypeDetails -> AreaTypeDetails: Get AnonymousData and Feature enabled
+group AnonymousData and Feature enabled
+    AreaTypeDetails -> AreaTypeDetails: Get User Management Token
+	AreaTypeDetails -> APITool: Request with Name\nand UM Token attached
+	activate APITool
+	APITool -> AreaTypeDetails: PredictedAreaType
+	deactivate APITool
+else AnonymousData and Feature disabled
+	AreaTypeDetails -> AreaTypeDetails: Do fuzzy match prediction
+end
+AreaTypeDetails -> AreaTypeDetails: Update AreaTypePredicted\nraise flags
+
+@enduml

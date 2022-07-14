@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "GT+jMXdXJmc5YoehO3iKZ4lhY/eTxwjHIi2bDQB0uKZ59V/DZBRXmFWNqenNB85GXacm7qfZRQOfDFhqbH5aSg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ofedorenko\\OneDrive - Lutron Electronics Co., Inc\\Documents\\Project_Docs\\Practice_Projects\\wpfcontentsandbox\\ContentSandbox\\ContentSandbox.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ofedorenko\\.nuget\\packages\\extended.wpf.toolkit\\4.1.0\\extended.wpf.toolkit.4.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Extended.Wpf.Toolkit 4.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Extended.Wpf.Toolkit",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

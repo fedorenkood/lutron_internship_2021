@@ -1,0 +1,27 @@
+@startuml
+
+
+class CellPhone {
+	+TurnOn()
+	+Call(PhoneNumber)
+}
+
+
+class IPhoneX {
+	+StareDeepIntoUsersEyes()
+}
+
+
+note right of IPhoneX
+	An iPhone X <b>is a</b> CellPhone, so it
+	<b>inherits</b> the ability to TurnOn and Call,
+	but also <b>extends</b> the functionality by
+	allowing face identification by exposing the 
+	StareDeepIntoUsersEyes funciton.
+end note
+
+
+IPhoneX -up-|> CellPhone
+
+
+@enduml

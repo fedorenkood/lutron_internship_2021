@@ -1,0 +1,27 @@
+@startuml area_type_prediction_block_diagram
+node "GUI" {
+  [UI] --> [Model]
+  [Model] - [DomainObject]
+  [DomainObject] <--> [API submodule]
+}
+
+
+
+database "Project DB" {
+  folder "Area Table" {
+    [AreaType]
+  }
+}
+
+
+database "ML Endpoint" {
+  frame "ML Prediction Tool" {
+    [Tool]
+  }
+}
+
+[AreaType] <-- [DomainObject]
+[API submodule] -> [Tool]
+[API submodule] <- [Tool]
+
+@enduml

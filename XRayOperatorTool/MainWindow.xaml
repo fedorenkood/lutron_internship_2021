@@ -1,0 +1,21 @@
+﻿<Window x:Class="XRayOperatorTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XRayOperatorTool"
+        xmlns:properties="clr-namespace:XRayOperatorTool.CustomXamlProperties"
+        xmlns:converters="clr-namespace:XRayOperatorTool.Converters"
+        xmlns:view_model="clr-namespace:XRayOperatorTool.ViewModel"
+        mc:Ignorable="d"
+        Title="XRayOperatorTool" Height="Auto" Width="Auto">
+    <Window.DataContext>
+        <view_model:MainViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <ResourceDictionary Source="ViewModelResources.xaml"/>
+    </Window.Resources>
+    <Grid>
+        <ContentControl Content="{Binding CurrentView}" />
+    </Grid>
+</Window>

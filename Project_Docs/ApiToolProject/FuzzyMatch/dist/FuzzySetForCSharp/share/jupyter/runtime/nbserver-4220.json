@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "C:\\Users\\ofedorenko\\OneDrive - Lutron Electronics Co., Inc\\Documents\\Project_Docs\\FuzzyMatch",
+  "password": false,
+  "pid": 4220,
+  "port": 8888,
+  "secure": false,
+  "sock": "",
+  "token": "860219f2fe62dbc2f40cdc5b0e356c035b0b30d1d6abc5ff",
+  "url": "http://localhost:8888/"
+}

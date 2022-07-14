@@ -1,0 +1,23 @@
+@startuml
+
+
+class Module {
+	+Initialize(DriverInterface&) : void
+}
+
+
+note right of Module
+	Module <b>has a reference to</b> an object
+	of type DriverInterface. That reference
+	is passed to the Module when it gets 
+	initialized, and is <b>stored as a class member</b>.
+end note
+
+
+abstract class DriverInterface
+
+
+Module o-->DriverInterface
+
+
+@enduml

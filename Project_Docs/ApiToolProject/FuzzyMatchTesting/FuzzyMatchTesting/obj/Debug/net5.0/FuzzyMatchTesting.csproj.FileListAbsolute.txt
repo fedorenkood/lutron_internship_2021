@@ -1,0 +1,17 @@
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\bin\Debug\net5.0\FuzzyMatchTesting.exe
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\bin\Debug\net5.0\FuzzyMatchTesting.deps.json
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\bin\Debug\net5.0\FuzzyMatchTesting.runtimeconfig.json
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\bin\Debug\net5.0\FuzzyMatchTesting.runtimeconfig.dev.json
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\bin\Debug\net5.0\FuzzyMatchTesting.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\bin\Debug\net5.0\ref\FuzzyMatchTesting.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\bin\Debug\net5.0\FuzzyMatchTesting.pdb
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\obj\Debug\net5.0\FuzzyMatchTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\obj\Debug\net5.0\FuzzyMatchTesting.AssemblyInfoInputs.cache
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\obj\Debug\net5.0\FuzzyMatchTesting.AssemblyInfo.cs
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\obj\Debug\net5.0\FuzzyMatchTesting.csproj.CoreCompileInputs.cache
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\obj\Debug\net5.0\FuzzyMatchTesting.csproj.CopyComplete
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\obj\Debug\net5.0\FuzzyMatchTesting.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\obj\Debug\net5.0\ref\FuzzyMatchTesting.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\obj\Debug\net5.0\FuzzyMatchTesting.pdb
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\FuzzyMatchTesting\FuzzyMatchTesting\obj\Debug\net5.0\FuzzyMatchTesting.genruntimeconfig.cache

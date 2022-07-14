@@ -1,0 +1,146 @@
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\ContentSandbox.exe
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\ContentSandbox.deps.json
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\ContentSandbox.runtimeconfig.json
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\ContentSandbox.runtimeconfig.dev.json
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\ContentSandbox.dll
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\ref\ContentSandbox.dll
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\ContentSandbox.pdb
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ContentSandbox_MarkupCompile.cache
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ContentSandbox_MarkupCompile.lref
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ContentSandbox.g.resources
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ContentSandbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ContentSandbox.AssemblyInfoInputs.cache
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ContentSandbox.AssemblyInfo.cs
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ContentSandbox.csproj.CoreCompileInputs.cache
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ContentSandbox.dll
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ref\ContentSandbox.dll
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ContentSandbox.pdb
+C:\Users\pmaclellan\Projects\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ContentSandbox.genruntimeconfig.cache
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.exe
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.deps.json
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.runtimeconfig.json
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.runtimeconfig.dev.json
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\ref\ContentSandbox.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.pdb
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.csprojAssemblyReference.cache
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox_MarkupCompile.cache
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox_MarkupCompile.lref
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.g.resources
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.AssemblyInfoInputs.cache
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.AssemblyInfo.cs
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.csproj.CoreCompileInputs.cache
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ref\ContentSandbox.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.pdb
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.genruntimeconfig.cache
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.Toolkit.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\bin\Debug\net5.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.csproj.CopyComplete
+C:\Users\pmaclellan\Projects\ContentSandbox\ContentSandbox\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.exe
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.deps.json
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.runtimeconfig.json
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.runtimeconfig.dev.json
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ref\ContentSandbox.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.pdb
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.Toolkit.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.csproj.AssemblyReference.cache
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox_MarkupCompile.cache
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox_MarkupCompile.lref
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.g.resources
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.AssemblyInfoInputs.cache
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.AssemblyInfo.cs
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.csproj.CoreCompileInputs.cache
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.csproj.CopyComplete
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ref\ContentSandbox.dll
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.pdb
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.genruntimeconfig.cache
+C:\Users\ofedorenko\Documents\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\Dictionary1.baml
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.exe
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.deps.json
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.runtimeconfig.json
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.runtimeconfig.dev.json
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ref\ContentSandbox.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ContentSandbox.pdb
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\Xceed.Wpf.Toolkit.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\bin\Debug\net5.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.csproj.AssemblyReference.cache
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\Dictionary1.baml
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox_MarkupCompile.cache
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox_MarkupCompile.lref
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.g.resources
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.AssemblyInfoInputs.cache
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.AssemblyInfo.cs
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.csproj.CoreCompileInputs.cache
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.csproj.CopyComplete
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ref\ContentSandbox.dll
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.pdb
+C:\Users\ofedorenko\OneDrive - Lutron Electronics Co., Inc\Documents\Project_Docs\Practice_Projects\wpfcontentsandbox\ContentSandbox\obj\Debug\net5.0-windows\ContentSandbox.genruntimeconfig.cache
